@@ -643,7 +643,7 @@ body {
   }
 }
 
-@-webkit-keyframes hero-up-orange-circle {
+@-webkit-keyframes hero-up-blue-circle {
   from {
     bottom: -100%
   }
@@ -654,7 +654,7 @@ body {
   }
 }
 
-@keyframes hero-up-orange-circle {
+@keyframes hero-up-blue-circle {
   from {
     bottom: -100%
   }
@@ -1402,43 +1402,43 @@ body {
   cursor: default
 }
 
-.chr-cta__button--orange {
+.chr-cta__button--blue {
   background-color: #C55911
 }
 
-.dark-theme .chr-cta__button--orange {
+.dark-theme .chr-cta__button--blue {
   background-color: #8ab4f8
 }
 
-.chr-cta__button--orange:hover,
-.chr-cta__button--orange:focus {
+.chr-cta__button--blue:hover,
+.chr-cta__button--blue:focus {
   background-color: #C55911
 }
 
-.dark-theme .chr-cta__button--orange:hover,
-.dark-theme .chr-cta__button--orange:focus {
+.dark-theme .chr-cta__button--blue:hover,
+.dark-theme .chr-cta__button--blue:focus {
   background-color: #aecbfa
 }
 
-.chr-cta__button--orange:active {
+.chr-cta__button--blue:active {
   background-color: #185abc
 }
 
-.dark-theme .chr-cta__button--orange:active {
+.dark-theme .chr-cta__button--blue:active {
   background-color: #d2e3fc
 }
 
-.chr-cta__button--orange:disabled {
+.chr-cta__button--blue:disabled {
   background-color: rgba(32, 33, 37, .1)
 }
 
-.dark-theme .chr-cta__button--orange:disabled {
+.dark-theme .chr-cta__button--blue:disabled {
   background-color: rgba(255, 255, 255, .16)
 }
 
 .chr-cta__button--reversed {
   background-color: #fff;
-  color: #c55911;
+  color: #C55911;
   border: none
 }
 
@@ -1447,7 +1447,7 @@ body {
 }
 
 .dark-theme .chr-cta__button--reversed {
-  color: #c55911
+  color: #C55911
 }
 
 .chr-cta__button--reversed:hover,
@@ -1562,7 +1562,7 @@ body {
 }
 
 #chr-experiment-cta+.chr-cta__button::after {
-  content: "Get Chrome";
+  content: "Get SongLib";
   display: block;
   text-indent: 0
 }
@@ -1851,21 +1851,21 @@ body {
   transform: translateY(4px)
 }
 
-.chr-link--orange {
+.chr-link--blue {
   color: #fff
 }
 
-.dark-theme .chr-link--orange {
+.dark-theme .chr-link--blue {
   color: #202125
 }
 
-.chr-link--orange:focus,
-.chr-link--orange:hover {
+.chr-link--blue:focus,
+.chr-link--blue:hover {
   color: #fff
 }
 
-.dark-theme .chr-link--orange:focus,
-.dark-theme .chr-link--orange:hover {
+.dark-theme .chr-link--blue:focus,
+.dark-theme .chr-link--blue:hover {
   color: #202125
 }
 
@@ -2732,7 +2732,7 @@ only screen and (-ms-high-contrast: none)and (min-width: 1024px) {
   grid-column-end: span 7
 }
 
-.chr-cards-hero__card--orange {
+.chr-cards-hero__card--blue {
   background-color: #4285f4
 }
 
@@ -3708,8 +3708,8 @@ only screen and (-ms-high-contrast: none)and (min-width: 1024px) {
 .chr-features-hero__images-3,
 .chr-features-hero__container-circle,
 .chr-features-hero__circle-yellow,
-.chr-features-hero__circle-orange,
-.chr-features-hero__triangle-orange,
+.chr-features-hero__circle-blue,
+.chr-features-hero__triangle-blue,
 .chr-features-hero__images-rectangle {
   display: none
 }
@@ -3889,24 +3889,24 @@ only screen and (-ms-high-contrast: none)and (min-width: 1024px) {
   min-height: 300px
 }
 
-.chr-reversible--orange {
+.chr-reversible--blue {
   min-height: 690px
 }
 
 @media only screen and (min-width: 600px) {
-  .chr-reversible--orange {
+  .chr-reversible--blue {
     min-height: 840px
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  .chr-reversible--orange {
+  .chr-reversible--blue {
     min-height: 536px
   }
 }
 
 @media only screen and (min-width: 1440px) {
-  .chr-reversible--orange {
+  .chr-reversible--blue {
     min-height: 640px
   }
 }
