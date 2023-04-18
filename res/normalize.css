@@ -164,6 +164,47 @@ button:-moz-focusring,
 [type=submit]:-moz-focusring {
   outline: 1px dotted ButtonText
 }
+.chr-slider__item-content_small {
+  background-color: #fff;
+  border: 1px solid #dbdce0;
+  border-radius: 8px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  min-height: 90px;
+  padding: 24px;
+  position: relative;
+  -webkit-transition: -webkit-transform .5s;
+  transition: -webkit-transform .5s;
+  transition: transform .5s;
+  transition: transform .5s, -webkit-transform .5s;
+  width: 228px;
+}
+
+.chr-breadcrumb__chevron {
+  fill: #202125;
+  height: 16px;
+  -webkit-transform: rotateZ(-90deg);
+  transform: rotateZ(-90deg);
+  width: 16px
+}
+
+.dark-theme .chr-breadcrumb__chevron {
+  fill: #fff
+}
+
+[dir=rtl] .chr-breadcrumb__chevron {
+  -webkit-transform: rotateZ(90deg);
+  transform: rotateZ(90deg)
+}
 
 input {
   overflow: visible
@@ -3594,7 +3635,7 @@ only screen and (-ms-high-contrast: none)and (min-width: 1024px) {
 
 .chr-features-hero {
   background-color: #e8f0fe;
-  height: 660px;
+  height: 350px;
   overflow: hidden;
   position: relative
 }
@@ -4038,38 +4079,38 @@ only screen and (-ms-high-contrast: none)and (min-width: 1024px) {
   min-height: 600px
 }
 
-.chr-search-bar {
+.chr-content {
   min-height: 920px;
   overflow: hidden;
   padding: 80px 0
 }
 
 @media only screen and (min-width: 600px) {
-  .chr-search-bar {
+  .chr-content {
     min-height: 832px;
     padding: 120px 0
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  .chr-search-bar {
+  .chr-content {
     min-height: 926px
   }
 }
 
 @media only screen and (min-width: 1440px) {
-  .chr-search-bar {
+  .chr-content {
     min-height: 870px
   }
 }
 
-.chr-search-bar__grid {
+.chr-content__grid {
   overflow: hidden;
   position: relative
 }
 
-.chr-search-bar__search-box,
-.chr-search-bar__text {
+.chr-content__search-box,
+.chr-content__text {
   display: none
 }
 
